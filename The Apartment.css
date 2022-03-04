@@ -1,0 +1,71 @@
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+    border-right:2px solid #eee;
+}
+.grid-container{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: 25% 61%;
+    padding: 10px;
+}
+.grid-container input{
+    width: 77%;
+    height: 33px;
+    text-align: left;
+    padding-left: 26px;
+}
+.grid-container p {
+    padding-left: 7px;
+    font-size: 18px;
+}
+#livingroom{
+    background-image: url(https://www.w3schools.com/w3images/livingroom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 431px;
+    width: 817px;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+.item3:hover, .item4:hover ,.item5:hover, .item6:hover{
+    opacity: 0.60;
+}
+.Thespace ,.Amenities{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    color: white;
+    background-color: yellowgreen;
+    padding: 15px;
+    border: 1px solid yellowgreen;
+    font-size: 20px;
+    width: 249px;
+}
+button:hover{
+    background-color: rgb(207, 207, 207);
+    border: 1px solid rgb(207, 207, 207);
+    color: black;
+    font-size: 20px;
+}
+#Contact input {
+    width: 477px;
+    height: 32px;
+    padding-left: 21px;
+}
+.link1,.link2,.link3{
+    width: 104%;
+    display: block;
+    padding: 8px 35px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+}
+.link1:hover ,.link2:hover ,.link3:hover{
+    background-color:grey ;
+}
+    
